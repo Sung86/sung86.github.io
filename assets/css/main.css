@@ -1862,6 +1862,9 @@ hr.major {
 }
 
 /* Section/Article */
+article {
+	height: 100px;
+}
 
 section.special,
 article.special {
@@ -1874,6 +1877,7 @@ header.major {
 	width: -ms-max-content;
 	width: max-content;
 	margin-bottom: 2em;
+	font-size: 12px;
 }
 
 header.major > :first-child {
